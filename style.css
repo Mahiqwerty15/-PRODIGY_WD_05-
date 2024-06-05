@@ -50,14 +50,20 @@
 }
 .weather h1{
    font-size: 80px;
-   font-weight: 5o0px;
+   font-weight: 50px;
    margin-top:10px;
 }
+.weather h2{
+    font-size: 45px;
+    font-weight: 400px;
+    margin-top:10px;
+}
+
 .details{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding: 0 20px;
+   padding: 20px;
    margin-top: 50px;
 }
 .col{
@@ -72,6 +78,9 @@
 .humidity, .wind{
    font-size: 28px;
    margin-top:-6px;
+}
+.weather{
+   display:none;
 }
 .error{
    text-align: left;
